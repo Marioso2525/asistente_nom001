@@ -1,0 +1,55 @@
+/* Estilos modernos para la aplicación */
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QLineEdit {
+    padding: 6px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border-color: #3498db;
+}
+
+QTabWidget::pane {
+    border: 1px solid #bdc3c7;
+    background: white;
+}
+
+QTabBar::tab {
+    background: #ecf0f1;
+    padding: 8px 16px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background: white;
+    border-bottom: 2px solid #3498db;
+}
+
+QListWidget {
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    background: white;
+}
+
+QListWidget::item:selected {
+    background: #3498db;
+    color: white;
+}
