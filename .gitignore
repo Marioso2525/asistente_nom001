@@ -2,8 +2,5 @@ __pycache__/
 *.py[cod]
 *.pyo
 .env
-.venv/
 venv/
 *.log
-.DS_Store
-Thumbs.db
